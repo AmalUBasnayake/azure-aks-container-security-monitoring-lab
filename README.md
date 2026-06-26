@@ -12,11 +12,9 @@
 
 # 🚀 Project Banner
 
-> 📌 **Insert Banner Image Here**
 
-```markdown
 ![Project Banner](screenshots/banner.png)
-```
+
 
 ---
 
@@ -42,11 +40,8 @@ This project demonstrates how Azure Kubernetes Service (AKS), Azure Container Re
 
 # 🏗️ Solution Architecture
 
-> 📌 **Insert Architecture Diagram Here**
-
-```markdown
 ![Architecture Diagram](screenshots/architecture-diagram.png)
-```
+
 
 ### Architecture Flow
 
@@ -89,11 +84,9 @@ Microsoft Defender for Containers
 
 Azure Container Registry was deployed to securely host container images used within the Kubernetes environment.
 
-📷 **Screenshot**
 
-```markdown
 ![Create Container Registry](screenshots/create_container_registry.png)
-```
+
 
 ---
 
@@ -101,11 +94,9 @@ Azure Container Registry was deployed to securely host container images used wit
 
 An AKS cluster was created to host and manage containerized workloads.
 
-📷 **Screenshot**
 
-```markdown
 ![Create AKS Cluster](screenshots/create_kubernetes_cluster.png)
-```
+
 
 ---
 
@@ -113,11 +104,9 @@ An AKS cluster was created to host and manage containerized workloads.
 
 The AKS cluster was connected to Azure Container Registry, enabling secure image pulls directly from ACR.
 
-📷 **Screenshot**
 
-```markdown
 ![ACR Integration](screenshots/integations.png)
-```
+
 
 ---
 
@@ -125,11 +114,9 @@ The AKS cluster was connected to Azure Container Registry, enabling secure image
 
 Microsoft Defender for Containers was enabled to provide vulnerability assessment, threat detection, and runtime monitoring.
 
-📷 **Screenshot**
 
-```markdown
 ![Defender for Containers Enabled](screenshots/Microsoft_Defender_for_Cloud_containers_ON.png)
-```
+
 
 ---
 
@@ -155,11 +142,9 @@ kubectl run vulnerable-pod \
   -- sleep 3600
 ```
 
-📷 **Screenshot**
 
-```markdown
 ![Cloud Shell Commands](screenshots/bash.png)
-```
+
 
 ---
 
@@ -167,11 +152,9 @@ kubectl run vulnerable-pod \
 
 Microsoft Defender for Cloud analyzed the workload and generated container security findings.
 
-📷 **Screenshot**
 
-```markdown
 ![Security Findings](screenshots/result.png)
-```
+
 
 ### Findings Categories
 
@@ -186,11 +169,9 @@ Microsoft Defender for Cloud analyzed the workload and generated container secur
 
 Additional node pool settings were reviewed to strengthen AKS cluster security and workload isolation.
 
-📷 **Screenshot**
 
-```markdown
 ![Node Pool Update](screenshots/update_node.png)
-```
+
 
 ---
 
